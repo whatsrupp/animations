@@ -1,0 +1,55 @@
+/*Colours:*/
+/*Orange: rgb(237,114,72)
+Green:  rgb(45,151,131)
+Dark Gray: rgb(161,167,165)
+White Gray: rgb(240,239,237)
+Dull Gray: rgb(211,213,210)
+Black Gray: rgb(47,52,55)
+Black: rgb(43,43,43)*/
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ball{
+  position: relative;
+  box-sizing: border-box;
+  height: 5%;
+  width: 5%;
+  background-color: rgb(211,213,210);
+  border-radius: 50%;
+  animation: color-change 2s ease infinite,
+             bounce 2s ease infinite;
+}
+
+@keyframes color-change {
+  0%, 100% {
+    background-color: rgb(45,151,131);
+  }
+
+  50% {
+    background-color:rgb(237,114,72);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    left: 0%;
+    top: 0%;
+  }
+
+  50% {
+    left: 95%;
+    top: 95%;
+  }
+}
+
+.animation-canvas{
+  height: 500px;
+  width: 500px;
+  background-color: rgb(47,52,55);
+  border-radius: 5px;
+}

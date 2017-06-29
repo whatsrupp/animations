@@ -1,0 +1,33 @@
+/*Colours:*/
+/*Orange: rgb(237,158,40)
+Green:  rgb(65,240,123)
+purple: rgb(99,13,186)
+Dark Gray: rgb(161,167,165)
+White Gray: rgb(240,239,237)
+Dull Gray: rgb(211,213,210)
+Black Gray: rgb(47,52,55)
+Black: rgb(43,43,43)*/
+
+html{
+  background-color: rgb(43,43,43);
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(237,114,72);
+}
+
+h2{
+  font-family: 'Bitter', sans-serif;
+  color:rgb(45,151,131);
+}
+h3{
+  font-family: 'Montserrat', serif;
+  color:rgb(99,13,186);
+}
+
+p{
+  font-family: 'Bitter', serif;
+  color: rgb(240,239,237);
+
+}
